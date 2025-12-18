@@ -1,0 +1,5 @@
+build*
+
+textures/*
+!textures/viking_room.png
+!textures/CMakeLists.txt
