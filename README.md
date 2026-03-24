@@ -1,4 +1,4 @@
 Running through the Vulkan tutorial.
 
-Currently on Generating Mimaps
+Currently on Multisampling
     Introduction
