@@ -1389,7 +1389,7 @@ class HelloTriangleApplication {
     }
 
     void createTextureImage() {
-        int texWidth, texHeight, texChannels;
+        int texWidth = 0, texHeight = 0, texChannels = 0;
         stbi_uc* pixels = stbi_load(TEXTURE_PATH.c_str(), &texWidth, &texHeight,
                                     &texChannels, STBI_rgb_alpha);
         mipLevels = static_cast<uint32_t>(
